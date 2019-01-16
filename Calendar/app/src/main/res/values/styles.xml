@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+       <!-- <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+
+    <style name="AppNotitleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+
+      <!--  <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+    <style name="myTransparent" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+
+    <style name="DatePicker" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--定义周样式-->
+    <style name="week_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/week_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/week</item>
+        <item name="android:text">@string/today</item>
+        <item name="android:textSize">@dimen/weeks_item_text_size</item>
+    </style>
+    <!--定义星期样式-->
+
+    <style name="week_list_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/week</item>
+        <item name="android:layout_marginLeft">@dimen/week_item_marginLeft</item>
+        <item name="android:textSize">@dimen/weeks_item_text_size</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="transparent">#7D000000</color>
+    <color name="week">#ffffff</color>
+    <color name="colortoday">#18ffffff</color>
+    <color name="weekbg">#33ffffff</color>
+    <color name="gray_background">#6e6b7c</color>
+    <color name="unselect_day">#ffffff</color>
+    <color name="transparents">#00000000</color>
+    <!--calendar item line-->
+    <color name="calenar_item_line">#596370</color>
+    <color name="date_picker_confirm">#5d92ff</color>
+    <color name="date_picker_line">#c6c6c6</color>
+
+
+</resources>
+
+
+
+
+

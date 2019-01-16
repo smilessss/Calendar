@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TimePackdemo</string>
+    <string name="select_date_text">请选择在范围内年月日（要求在当前日期前后四年）</string>
+</resources>

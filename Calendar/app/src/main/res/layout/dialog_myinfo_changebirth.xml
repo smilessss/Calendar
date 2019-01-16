@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ly_myinfo_changeaddress"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:orientation="vertical" >
+
+<LinearLayout
+    android:id="@+id/ly_myinfo_changeaddress_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+
+<TextView
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/date_picker_height"
+    android:text="@string/date_select_title"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:textColor="@color/color_323232"
+    android:textSize="@dimen/date_picker_text_size"/>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/date_picker_line"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/date_picker_main_height"
+        android:layout_marginTop="@dimen/date_picker_main_marginTop"
+        android:layout_marginBottom="@dimen/date_picker_main_marginTop"
+        android:layout_marginLeft="@dimen/date_picker_main_marginLeft"
+        android:layout_marginRight="@dimen/date_picker_main_marginLeft"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <com.panghaha.it.timepackdemo.view.wheelview.WheelView
+
+            android:id="@+id/wv_birth_year"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            />
+        <com.panghaha.it.timepackdemo.view.wheelview.WheelView
+            android:id="@+id/wv_birth_month"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            />
+
+        <com.panghaha.it.timepackdemo.view.wheelview.WheelView
+            android:id="@+id/wv_birth_day"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/date_picker_line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/date_picker_height"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/btn_myinfo_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/date_select_cancel"
+            android:gravity="center"
+            android:textColor="@color/date_picker_confirm"
+            android:textSize="@dimen/date_picker_text_size" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/date_picker_line"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_myinfo_sure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/date_select_confirm"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:textColor="@color/date_picker_confirm"
+
+            android:textSize="@dimen/date_picker_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

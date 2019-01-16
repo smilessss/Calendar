@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calendar</string>
+
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">new moon</string>
+    <string name="today">今</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="date_select_title">Date jump to</string>
+    <string name="weeks">Weeks</string>
+    <string name="date_select_cancel">Cancel</string>
+    <string name="date_select_confirm">Confirm</string>
+
+
+
+</resources>

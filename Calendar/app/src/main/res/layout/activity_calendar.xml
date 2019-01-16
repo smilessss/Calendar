@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context="com.codbking.calendar.exaple.CalendarActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="@dimen/calendar_activity_width"
+        android:layout_height="@dimen/calendar_activity_height"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+<!--ndroid:drawablePadding="@dimen/title_drawablePadding"-->
+                <LinearLayout
+                    android:id="@+id/ll_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal"
+
+                    >
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/title_marginLeft"
+                        android:layout_alignStart="@+id/iv_select"
+                        android:drawablePadding="@dimen/title_drawablePadding"
+
+                        android:text="2016/01/10"
+
+                        android:gravity="center_vertical"
+
+                        android:textColor="@color/week"
+                        android:textSize="@dimen/title_text_size" />
+                    <ImageView
+                        android:id="@+id/iv_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/title_drawablePadding"
+                        android:src="@drawable/icon_down"
+                        android:layout_below="@+id/title"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/week" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_day"
+                    android:layout_width="@dimen/day_width"
+                    android:layout_height="@dimen/day_height"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitCenter"
+                    android:text="@string/today"
+                    android:layout_marginLeft="@dimen/day_marginLift"
+                    android:textColor="@color/week"
+                    android:textSize="@dimen/day_text_size" />
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/close_marginLeft"
+                    android:src="@drawable/icon_close"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/week" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/ll_weeks_width"
+                android:layout_height="match_parent"
+                android:background="@color/colortoday"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/weeks_height"
+                    android:gravity="center"
+                    android:text="周数"
+                    android:textColor="@color/week"
+                    android:textSize="@dimen/weeks_text_size" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    style="@style/week_item"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    style="@style/week_item" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    style="@style/week_item" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    style="@style/week_item" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    style="@style/week_item" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    style="@style/week_item" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/weeks_height"
+                    android:background="@color/weekbg"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/sunday" />
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/monday" />
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/tuesday" />
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/wednesday" />
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/thursday" />
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/friday" />
+
+                    <TextView
+                        style="@style/week_list_item"
+                        android:text="@string/saturday" />
+
+                </LinearLayout>
+
+
+                <com.codbking.calendar.CalendarDateView
+                    android:id="@+id/calendarDateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

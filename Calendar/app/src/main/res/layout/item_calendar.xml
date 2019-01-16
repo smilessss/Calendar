@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/calenar_item_line"></View>
+<!--background_item_xiaomi-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/calenar_item_line"/>
+        <!--android:gravity="center"-->
+        <LinearLayout
+            android:id="@+id/ll_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll_item_day"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@drawable/background_item_xiaomi"
+                android:orientation="vertical">
+            <TextView
+
+                android:layout_marginLeft="@dimen/calendar_item_marginLeft"
+                android:layout_marginTop="@dimen/calendar_item_marginTop"
+                android:id="@+id/text"
+                android:textSize="@dimen/calendar_item_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/week"
+                 />
+
+            <TextView
+                android:id="@+id/chinaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/calendars_item_marginLeft"
+                android:textColor="@color/week"
+                android:textSize="@dimen/calendars_item_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

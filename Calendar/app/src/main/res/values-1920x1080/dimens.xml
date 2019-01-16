@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- The maximum width of the navigation bar ripples. -->
+    <dimen name="key_button_ripple_max_width">95dp</dimen>
+
+    <dimen name="navigation_key_90_width">75px</dimen>
+    <dimen name="navigation_key_90_height">75px</dimen>
+    <dimen name="navigation_key_0_width">120px</dimen>
+    <dimen name="navigation_key_0_height">75px</dimen>
+
+    <!-- The width of the view containing the menu/ime navigation bar icons -->
+    <dimen name="navigation_extra_key_width">36dp</dimen>
+	
+	<dimen name="ist_dialog_width">1640px</dimen>
+    <dimen name="ist_dialog_height">700px</dimen>
+    <dimen name="ist_dialog_layout_x">550px</dimen>
+    <dimen name="ist_dialog_layout_y">400px</dimen>
+    <dimen name="ist_dialog_text_size">40px</dimen>
+    <dimen name="ist_dialog_padding">30px</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="calendar_activity_width">1696dp</dimen>
+    <dimen name="calendar_activity_height">1044dp</dimen>
+    <!--title-->
+    <dimen name="title_height">96dp</dimen>
+    <dimen name="title_marginLeft">650dp</dimen>
+    <dimen name="title_drawablePadding">15dp</dimen>
+    <dimen name="title_text_size">54sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="week_height">90dp</dimen>
+    <dimen name="weeks_height">66dp</dimen>
+    <dimen name="ll_weeks_width">57dp</dimen>
+    <dimen name="day_width">56dp</dimen>
+    <dimen name="day_height">56dp</dimen>
+    <dimen name="day_marginLift">20dp</dimen>
+    
+    <!--date select dialog-->
+    <dimen name="dialog_move_width">810dp</dimen>
+    <dimen name="dialog_move_height">400dp</dimen>
+
+
+    <dimen name="close_marginLeft">560dp</dimen>
+    <!-- text size-->
+    <dimen name="day_text_size">28sp</dimen>
+    <dimen name="weeks_text_size">24sp</dimen>
+    <dimen name="weeks_item_text_size">24sp</dimen>
+
+    <dimen name="week_item_text_size">26sp</dimen>
+    <dimen name="week_item_marginLeft">150dp</dimen>
+    
+    <!--calendar item -->
+    <dimen name="calendar_item_marginLeft">171dp</dimen>
+    <dimen name="calendars_item_marginLeft">164dp</dimen>
+    <dimen name="calendar_item_marginTop">26dp</dimen>
+
+    <dimen name="calendar_item_text_size">40sp</dimen>
+    <dimen name="calendars_item_text_size">26sp</dimen>
+
+    <!--date select picker-->
+    <dimen name="date_picker_text_size">40sp</dimen>
+    <dimen name="date_picker_height">120dp</dimen>
+    <dimen name="date_picker_main_height">180dp</dimen>
+    <dimen name="date_picker_main_marginLeft">116dp</dimen>
+    <dimen name="date_picker_main_marginTop">22dp</dimen>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bocop_dialog_bg">#77000000</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="color_e84515">#5d92ff</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+
+    <color name="color_323232">#5c5c5c</color>
+    <color name="huise">#adadad</color>
+
+    <color name="province_line_border">#c6c6c6</color>
+</resources>
